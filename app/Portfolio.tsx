@@ -444,10 +444,29 @@ export default function Portfolio() {
         </div>
       </section>
 
+      <section className="education-section">
+        <div className="education-heading reveal">
+          <span className="section-index">05 / EDUCATION</span>
+          <h2>Built on first principles.</h2>
+        </div>
+        <div className="education-grid reveal">
+          <article>
+            <span>GRADUATE</span>
+            <h3>Illinois Institute of Technology</h3>
+            <p>M.S. · Computer Science</p>
+          </article>
+          <article>
+            <span>UNDERGRADUATE</span>
+            <h3>National Institute of Technology, Calicut</h3>
+            <p>B.S. · Computer Science</p>
+          </article>
+        </div>
+      </section>
+
       <section className="contact-section" id="contact">
         <div className="contact-orbit" aria-hidden="true"><span /><span /><span /></div>
         <div className="contact-copy reveal">
-          <span className="section-index">05 / NEXT BOUNDARY</span>
+          <span className="section-index">06 / NEXT BOUNDARY</span>
           <h2>Build systems that<br /><em>have the user’s back.</em></h2>
           <p>For work where low-level rigor, pragmatic policy, and thoughtful platform design belong in the same room.</p>
           <a className="contact-email" href="mailto:devkumar.dklv@gmail.com">devkumar.dklv@gmail.com <Arrow /></a>

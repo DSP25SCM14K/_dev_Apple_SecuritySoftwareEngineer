@@ -1019,6 +1019,67 @@ main {
   letter-spacing: 0.1em;
 }
 
+.education-section {
+  padding: 0 4vw 130px;
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.education-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 34px;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.education-heading h2 {
+  margin: 0;
+  font-size: clamp(36px, 4vw, 64px);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.education-grid article {
+  min-height: 230px;
+  padding: 38px 0;
+  border-bottom: 1px solid var(--line-dark);
+}
+
+.education-grid article:first-child {
+  padding-right: 4vw;
+  border-right: 1px solid var(--line-dark);
+}
+
+.education-grid article:last-child {
+  padding-left: 4vw;
+}
+
+.education-grid span {
+  color: var(--mint);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 9px;
+  letter-spacing: 0.13em;
+}
+
+.education-grid h3 {
+  margin: 58px 0 9px;
+  font-size: clamp(23px, 2.5vw, 38px);
+  letter-spacing: -0.04em;
+}
+
+.education-grid p {
+  margin: 0;
+  color: var(--muted-dark);
+  font-size: 14px;
+}
+
 .contact-section {
   position: relative;
   min-height: 780px;
@@ -1326,6 +1387,26 @@ main {
   }
   .publication-section {
     padding: 0 20px 92px;
+  }
+  .education-section {
+    padding: 0 20px 92px;
+  }
+  .education-heading {
+    display: block;
+  }
+  .education-heading h2 {
+    margin-top: 20px;
+  }
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+  .education-grid article:first-child,
+  .education-grid article:last-child {
+    padding: 32px 0;
+    border-right: 0;
+  }
+  .education-grid h3 {
+    margin-top: 38px;
   }
   .publication-card {
     padding: 44px 28px;
